@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="icons.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@3.7.1/dist/chart.min.js"></script>
+    <title>Ubiboard</title>
+</head>
+<body>
+
+    <div class="ubiboard">
+
+        <section class="premiere">
+
+            <img src="img/001.jpg" alt="ubinair logo" class="logo">
+
+            <div>
+                <span class="material-symbols-outlined">dashboard</span>
+                <span class="material-symbols-outlined">timeline</span>
+                <span class="material-symbols-outlined">group</span>
+                <span class="material-symbols-outlined">event</span>
+                <span class="material-symbols-outlined">settings</span>
+            </div>
+
+            <img src="img/002.jpg" alt="user image" class="user">
+            
+
+        </section>
+
+        <section class="deuxieme">
+
+            <div class="searchs">
+                <form action="">
+                    <input type="text" name="search" id="search" placeholder="Recherche">
+                    <span class="material-symbols-outlined">search</span>
+                </form>
+                <div class="notification">
+                    <span class="material-symbols-outlined">notifications</span>
+                    <span class="material-symbols-outlined">edit</span>
+                </div>
+            </div>
+
+            <div class="titre">
+                <h1>Mon Projet</h1>
+                <form action="#">
+                    <label for="projets">trier par</label>
+                    <select name="projets" id="projets">
+                        <option value="recent">Projet récent</option>
+                        <option value="fini">Projet fini</option>
+                        <option value="encours">Projet en cours</option>
+                        <option value="annule">Projet annulé</option>
+                    </select>
+                </form>
+            </div>
+
+            <div class="liste_projet">
+        
+                <div class="projet">
+
+                    <div class="categorie categorie_color1"></div>
+                        <h2>Design Graphique</h2>
+                        <p>Actif récemment</p>
+
+                        <ul class="activite">
+                            <li>bientôt</li>
+                            <li>couverture</li>
+                        </ul>
+
+                        <div class="donnee">
+                            <div class="contributeurs">
+                                <img src="img/003.jpg" alt="1">
+                                <img src="img/004.jpg" alt="2" class="stack">
+                                <img src="img/005.jpg" alt="3" class="stack">
+                            </div>
+
+                    <span class="material-symbols-outlined">more_vert</span>
+                        </div>
+
+                </div>
+
+
+                <div class="projet">
+
+                    <div class="categorie categorie_color2"></div>
+                        <h2>Magazin</h2>
+                        <p>1 hour ago</p>
+
+                        <ul class="activite">
+                            <li>contenue d'actualité</li>
+                        </ul>
+
+                        <div class="donnee">
+                            <div class="contributeurs">
+                                <img src="img/006.jpg" alt="4">
+                                <img src="img/007.jpg" alt="5" class="stack">
+                            </div>
+
+                    <span class="material-symbols-outlined">more_vert</span>
+                        </div>
+
+                </div>
+
+                <div class="projet">
+
+                    <div class="categorie categorie_color3"></div>
+                        <h2>mise en page</h2>
+                        <p>1 day ago</p>
+
+                        <ul class="activite">
+                            <li>corriger la mise en page</li>
+                        </ul>
+
+                        <div class="donnee">
+                            <div class="contributeurs">
+                                <img src="img/008.jpg" alt="6">
+                            </div>
+
+                    <span class="material-symbols-outlined">more_vert</span>
+                        </div>
+
+                </div>
+
+                <div class="projet">
+
+                    <div class="categorie categorie_color4"></div>
+                        <h2>branding</h2>
+                        <p>3 day ago</p>
+
+                        <ul class="activite">
+                            <li>brainstorming shapes</li>
+                        </ul>
+
+                        <div class="donnee">
+                            <div class="contributeurs">
+                                <img src="img/009.jpg" alt="7">
+                            </div>
+
+                    <span class="material-symbols-outlined">more_vert</span>
+                        </div>
+
+                </div>
+
+                <div class="projet">
+
+                    <div class="categorie categorie_color5"></div>
+                        <h2>guidelines</h2>
+                        <p>5 day ago</p>
+
+                        <ul class="activite">
+                            <li>make brand guidelines for marked cosmetics</li>
+                        </ul>
+
+                        <div class="donnee">
+                            <div class="contributeurs">
+                                <img src="img/010.jpg" alt="8">
+                                <img src="img/011.jpg" alt="9" class="stack">
+                            </div>
+
+                    <span class="material-symbols-outlined">more_vert</span>
+                        </div>
+
+                </div>
+
+                <div class="projet">
+
+                    <div class="categorie categorie_color6"></div>
+                        <h2>photoshoot</h2>
+                        <p>1 week ago</p>
+
+                        <ul class="activite">
+                            <li>get the photo ready for magazine</li>
+                        </ul>
+
+                        <div class="donnee">
+                            <div class="contributeurs">
+                                <img src="img/012.jpg" alt="10">
+                                <img src="img/013.jpg" alt="11" class="stack">
+                                <img src="img/008.jpg" alt="12" class="stack">
+                            </div>
+
+                    <span class="material-symbols-outlined">more_vert</span>
+                        </div>
+
+                </div>
+
+
+            </div>
+
+        </section>
+
+        <section class="troisieme">
+
+            <div class="chart">
+                <h2>nombre de projets</h2>
+                <canvas id="myChart" width="400" height="400"></canvas>
+                <div class="complete">
+                    <h3>3 completed</h3>
+                    <p>form five projet</p>
+                </div>
+            </div>
+
+            <div class="projet_recent">
+                <div class="listes">
+                    <div class="titres">
+                        <div class="categories categorie_color1"></div>
+                        <h2>layouting</h2>
+                        <p>by chidoze kachukwu</p>
+                    </div>
+                    <span class="material-symbols-outlined">more_vert</span>
+                </div>
+
+                <div class="listes">
+                    <div class="titres">
+                        <div class="categories categorie_color2"></div>
+                        <h2>photoshoot</h2>
+                        <p>by Musa Ismail</p>
+                    </div>
+                    <span class="material-symbols-outlined">more_vert</span>
+                </div>
+
+                <div class="listes">
+                    <div class="titres">
+                        <div class="categories categorie_color3"></div>
+                        <h2>design graphique</h2>
+                        <p>by Matthew kelechi/p>
+                    </div>
+                    <span class="material-symbols-outlined">more_vert</span>
+                </div>
+
+                <div class="listes">
+                    <div class="titres">
+                        <div class="categories categorie_color4"></div>
+                        <h2>Branding</h2>
+                        <p>by Ezekiel Arowolo</p>
+                    </div>
+                    <span class="material-symbols-outlined">more_vert</span>
+                </div>
+            </div>
+
+        </section>
+
+
+    </div>
+
+    <script>
+        const ctx = document.getElementById('myChart').getContext('2d');
+        const myChart = new Chart(ctx, {
+            type: 'doughnut',
+            data: {
+                labels: [
+                    'fini',
+                    'en_cours',
+                    'annule'
+                ],
+                datasets: [{
+                    label: 'My First Dataset',
+                    data: [300, 50, 100],
+                    backgroundColor: [
+                    'rgb(255, 99, 132)',
+                    'rgb(54, 162, 235)',
+                    'rgb(255, 205, 86)'
+                    ],
+                    hoverOffset: 4
+                }]
+            },
+        });
+        </script>
+    
+</body>
+</html>

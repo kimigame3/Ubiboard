@@ -1,0 +1,596 @@
+*
+{
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body
+{
+    margin: 0px;
+    background-color: rgb(166, 215, 230);
+}
+
+.ubiboard
+{
+    padding: 0px 15px;
+    margin: 0 auto;
+}
+
+/*=============================
+premiere
+=============================*/
+
+.ubiboard .premiere
+{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.ubiboard .premiere img.logo
+{
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+}
+
+.ubiboard .premiere img.user
+{
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+}
+
+.ubiboard .premiere div .material-symbols-outlined
+{
+    margin-left: 5px;
+    margin-right: 5px;
+    font-size: 30px;
+    color: #727272;
+}
+
+
+/*=============================
+deuxieme
+=============================*/
+/*search*/
+
+.ubiboard .deuxieme .searchs form
+{
+    position: relative;
+}
+
+.ubiboard .deuxieme .searchs
+    {
+        margin-top: 30px;
+    }
+
+.ubiboard .deuxieme .searchs form input
+{
+    width: 100%;
+    font-size: 16px;
+    padding: 10px 10px 10px 60px;
+    border: 1px solid #dadada;
+    background-color: rgba(0, 0, 0 / 0);
+}
+
+.ubiboard .deuxieme .searchs form span
+{
+    position: absolute;
+    left: 15px;
+    top: 10px;
+    color: #727272;
+}
+
+.ubiboard .deuxieme .searchs .notification
+{
+    margin-top: 20px;
+}
+
+.ubiboard .deuxieme .searchs .notification span:nth-child(1)
+{
+    margin-right: 15px;
+    position: relative;
+}
+.ubiboard .deuxieme .searchs .notification span:nth-child(1)::before
+{
+    content: '';
+    width: 10px;
+    height: 10px;
+    background-color: sandybrown;
+    position: absolute;
+    border-radius: 50%;
+    top: 5px;
+}
+
+/*mon projet (titreç*/
+.ubiboard .deuxieme .titre
+{
+    margin-bottom: 30px;
+}
+
+.ubiboard .deuxieme .titre h1
+{
+    font-size: 35px;
+    line-height: 0px;
+}
+
+.ubiboard .deuxieme .titre form
+{
+    margin-top: 40px;
+}
+
+.ubiboard .deuxieme .titre form label
+{
+    margin-right: 15px;
+    color: #727272;
+    font-size: 16px;
+}
+
+.ubiboard .deuxieme .titre form select
+{
+    border: none;
+    font-size: 16px;
+    background-color: rgba(0, 0, 0 / 0);
+}
+
+/*liste de projets*/
+
+.ubiboard .deuxieme .liste_projet .projet h2
+{
+    font-size: 20px;
+    line-height: 0;
+}
+.ubiboard .deuxieme .liste_projet .projet p
+{
+    color: #727272;
+}
+
+.ubiboard .deuxieme .liste_projet .projet ul
+{
+    list-style: none;
+    position: relative;
+    margin-left: 0px;
+    padding-left: 0px;
+}
+
+.ubiboard .deuxieme .liste_projet .projet ul li
+{
+    position: relative;
+    color: #727272;
+    margin-left: 15px;
+}
+
+.ubiboard .deuxieme .liste_projet .projet ul li::before
+{
+    content: "\268A";
+    position: absolute;
+    left: -15px;
+    top: -5px;
+}
+
+.ubiboard .deuxieme .liste_projet .projet .donnee img
+{
+    width: 50px;
+    height: 50px;
+    border-radius: 40px;
+    border: 4px solid aquamarine;
+}
+
+.ubiboard .deuxieme .liste_projet .projet .donnee img.stack
+{
+    margin-left: -20px;
+}
+
+.ubiboard .deuxieme .liste_projet .projet .donnee
+{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.ubiboard .deuxieme .liste_projet .projet
+{
+    padding: 20px 20px 20px 60px;
+    background-color: white;
+    box-shadow: 1px 1px 40px rgba(0, 0, 0 / .01);
+    margin-bottom: 20px;
+    border-radius: 10px;
+    position: relative;
+}
+
+.ubiboard .deuxieme .liste_projet .categorie
+{
+    width: 30px;
+    height: 50px;
+    background-color: rebeccapurple;
+    border-radius: 0px 10px 10px 0px;
+    position: absolute;
+    left: 0;
+}
+
+.categorie_color1
+{
+    background-color: tan !important;
+}
+
+.categorie_color2
+{
+    background-color: rebeccapurple !important;
+}
+
+.categorie_color3
+{
+    background-color: sandybrown !important;
+}
+
+.categorie_color4
+{
+    background-color: lightcyan !important;
+}
+
+.categorie_color5
+{
+    background-color: palevioletred !important;
+}
+
+.categorie_color6
+{
+    background-color: mediumpurple !important;
+}
+
+/*=============================
+troisième
+=============================*/
+/*chart*/
+
+.ubiboard .troisieme .chart .complete
+{
+    text-align: center;
+    margin: 40px 0px;
+}
+
+.ubiboard .troisieme .chart .complete h3
+{
+    line-height: 0px;
+}
+
+.ubiboard .troisieme .chart .complete p
+{
+    color: #727272;
+}
+
+.ubiboard .troisieme .chart
+{
+    background-color: white;
+    padding: 15px;
+    position: relative;
+    margin-bottom: 30px;
+}
+
+/* projet recent*/
+
+.ubiboard .troisieme .projet_recent .listes h2
+{
+    line-height: 0px;
+}
+
+.ubiboard .troisieme .projet_recent .listes p
+{
+    color: #727272;
+}
+
+.ubiboard .troisieme .projet_recent .listes
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.ubiboard .troisieme .projet_recent
+{
+    background-color: white;
+    padding: 15px 15px 15px 60px;
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.ubiboard .troisieme .projet_recent .categories
+{
+    width: 16px;
+    height: 16px;
+    border-radius: 16px;
+    position: absolute;
+    left: 10px;
+    margin-top: 20px;
+}
+
+/*=============================
+media query 768px
+=============================*/
+@media only screen and (min-width : 768px)
+{
+    /*ubiboard searchs*/
+    .ubiboard .deuxieme .searchs
+    {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 70px;
+        margin-bottom: 50px;
+    }
+    section.deuxieme .liste_projet
+    {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    section.deuxieme .liste_projet .projet
+    {
+        width: 47%;
+    }
+    section.deuxieme .liste_projet .projet span
+    {
+        margin-top: 15px;
+    }
+    /*projet recent style*/
+    section.troisieme
+    {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: nowrap;
+        background-color: white;
+        padding-top: 70px;
+    }
+    section.troisieme .chart
+    {
+        width: 40%;
+    }
+    section.troisieme .projet_recent
+    {
+        width: 55%;
+    }
+    section.troisieme .projet_recent .listes span
+    {
+        margin-top: 15px;
+    }
+
+}
+
+
+@media only screen and (min-width : 1024px)
+{
+    .ubiboard .premiere,
+    .ubiboard .premiere div span,
+    section.troisieme
+    {
+        display: block;
+    }
+    .ubiboard .premiere
+    {
+        width: 60px;
+        position: fixed;
+        z-index: 10;
+    }
+    section.deuxieme
+    {
+        width: 60%;
+        margin-left: 90px;
+        margin-right: 20px;
+    }
+    section.troisieme
+    {
+        width: 27%;
+        padding-top: 0px;
+        position: fixed;
+        top: 20px;
+        right: 0px;
+        background-color: transparent;
+    }
+    section.troisieme .chart,
+    section.troisieme .projet_recent
+    {
+        width: 100%;
+        border-radius: 10px;
+    }
+    .ubiboard .premiere div
+    {
+        margin-top: 18vh;
+        margin-bottom: 18vh;
+    }
+    .ubiboard .premiere div span
+    {
+        margin-top: 5vh;
+    }
+}
+
+@media only screen and (min-width : 1111px)
+{
+    section.deuxieme .liste_projet .projet
+    {
+        width: 32%;
+    }
+    section.deuxieme
+    {
+        width: 65%;
+    }
+}
+
+@media only screen and (min-width : 1500px)
+{
+    section.troisieme .projet_recent .listes:nth-child(4)
+    {
+        display: none;
+    }
+}
+
+
+
+/*
+.chart
+{
+    width: 20%;
+    margin: 20px;
+}*/
+
+/*===================================================================*/
+@keyframes dev
+{
+  0%, 100%{
+    transform: translateX(50px);
+  }
+  50%{
+    transform: translateX(100px) scale(.8);
+  }
+}
+body::after{
+  content: '';
+  position: absolute;
+  left: 80%;
+  top: 12%;
+  z-index: -1;
+  width: 80px;
+  height: 80px;
+  background: rgba(255, 255, 255, .5);
+  animation: tech 3s linear infinite;
+}
+@keyframes tech
+{
+  0%, 100%{
+    transform: translateX(50px);
+  }
+  50%{
+    transform: translateX(100px) scale(.8);
+  }
+}
+.progress{
+  width: 150px;
+  height: 150px;
+  line-height: 150px;
+  background: none;
+  margin: 0 auto;
+  box-shadow: none;
+  position: relative;
+}
+.progress:after{
+  content: '';
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  border: 15px solid #f2f5f5;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.progress > span{
+  width: 50%;
+  height: 100%;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  z-index: 1;
+}
+.progress .progress-left{
+  left: 0;
+}
+.progress .progress-bar{
+  width: 100%;
+  height: 100%;
+  background: none;
+  border-width: 15px;
+  border-style: solid;
+  position: absolute;
+  top: 0;
+}
+.progress .progress-left .progress-bar{
+  left: 100%;
+  border-top-right-radius: 80px;
+  border-bottom-right-radius: 80px;
+  border-left: 0;
+  -webkit-transform-origin: center left;
+  transform-origin: center left;
+}
+.progress .progress-right{
+  right: 0;
+}
+.progress .progress-right .progress-bar{
+  left: -100%;
+  border-top-left-radius: 80px;
+  border-bottom-left-radius: 80px;
+  border-right: 0;
+  -webkit-transform-origin: center right;
+  transform-origin: center right;
+  animation: leadingOne 1.8s linear forwards;
+}
+.progress .progress-value{
+  width: 100%;
+  height: 100%;
+  font-size: 24px;
+  color: rgb(250, 245, 245);
+  text-align: center;
+  position: absolute;
+}
+.progress.blue .progress-bar{
+  border-color: #26abfd;
+}
+.progress.blue .progress-left .progress-bar{
+  animation: leandingTwo 1.5s linear forwards 1.8s;
+}
+.progress.yellow .progress-bar{
+  border-color: #fdc426;
+}
+.progress.yellow .progress-left .progress-bar{
+  animation: leandingThree 1s linear forwards 1.8s;
+}
+.progress.pink .progress-bar{
+  border-color: #f83754;
+}
+.progress.pink .progress-left .progress-bar{
+  animation: leandingFor 0.4s linear forwards 1.8s;
+}
+.progress.green .progress-bar{
+  border-color: #f83754;
+}
+.progress.green .progress-left .progress-bar{
+  animation: leandingFive 1.2s linear forwards 1.8s;
+}
+
+@keyframes leadingOne{
+  0%{
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100%{
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+  }
+}
+@keyframes leandingTwo{
+  0%{
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100%{
+    -webkit-transform: rotate(144deg);
+    transform: rotate(144deg);
+  }
+}
+@keyframes leandingThree{
+  0%{
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100%{
+    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg);
+  }
+}
+@keyframes leandingFor{
+  0%{
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100%{
+    -webkit-transform: rotate(36deg);
+    transform: rotate(36deg);
+  }
+}

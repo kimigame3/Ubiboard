@@ -1,0 +1,96 @@
+body
+{
+   
+    background-image: linear-gradient(to right, #110A19, #221331);
+    color: #EEEEEF;
+    font-family: Montserrat;
+  
+}
+
+h1
+{
+    position: absolute;
+    left: 50%;
+    top: 10%;
+}
+
+main
+{
+    width: 80%;
+    padding: 20px;
+    border-radius: 5px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.image
+{
+    position: absolute;
+    width: auto;
+}
+
+.image-input
+{
+    width: 30px;
+}
+
+button
+{
+    position: absolute;
+    padding: 10px 40px;
+    border-radius: 10px;
+    border-bottom: 5px;
+    top: 75%;
+    left: 45%;
+    color: 221331;
+   
+}
+
+
+.buttons
+{
+    background-color: whitesmoke;
+    color: 221331;
+    padding: 10px 40px;
+    border-radius: 10px;
+    border-bottom: 5px;
+   
+    transition: all .1s;
+    -webkit-transition: all .1s;
+    float: left;
+}
+
+.buttons:active
+{
+    transform: translate(0, 5px);
+    -webkit-transform: translate(0, 5px);
+    border-bottom: 1px solid;
+}
+
+.page
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.coche
+{
+    display: flex;
+    
+}
+
+.coche1
+{
+    position: absolute ;
+    left: 10%;
+    top: 29%;
+}
+
+.coche2
+{
+    position: absolute ;
+    left: 60%;
+    top: 29%;
+}
